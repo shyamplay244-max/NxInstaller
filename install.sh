@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_BASE="https://raw.githubusercontent.com/shyamplay244-max/notx-installer/main"
+REPO_BASE="${REPO_BASE:-https://raw.githubusercontent.com/shyamplay244-max/NxInstaller/main}"
 
 # shellcheck disable=SC1091
 source <(curl -fsSL "${REPO_BASE}/scripts/common.sh")

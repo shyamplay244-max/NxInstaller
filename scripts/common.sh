@@ -10,7 +10,7 @@ BLUE='\033[0;34m'
 CYAN='\033[0;36m'
 WHITE='\033[1;37m'
 RESET='\033[0m'
-REPO_BASE="${REPO_BASE:-https://raw.githubusercontent.com/shyamplay244-max/notx-installer/main}"
+REPO_BASE="${REPO_BASE:-https://raw.githubusercontent.com/shyamplay244-max/NxInstaller/main}"
 
 log_info() {
   echo -e "${CYAN}[•]${RESET} $*"

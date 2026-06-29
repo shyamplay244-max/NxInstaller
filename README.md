@@ -5,7 +5,7 @@ A modular Linux Bash multitool installer for managing PteroPanel, AirLink Panel,
 ## One-Line Install
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/shyamplay244-max/notx-installer/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/shyamplay244-max/NxInstaller/main/install.sh)
 ```
 
 ## Repository Structure
